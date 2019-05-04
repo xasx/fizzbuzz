@@ -9,13 +9,13 @@ repositories {
 
 dependencies {
 
-    compile 'com.google.guava:guava:18.0'
+    compile 'com.google.guava:guava:27.1-jre'
 
 //    testCompile "junit:junit:4.11"
 }
 
 jar {
     manifest {
-        attributes 'Main-Class': 'pkgname.FizzBuzz'
+        attributes 'Main-Class': mainClassName
     }
 }
